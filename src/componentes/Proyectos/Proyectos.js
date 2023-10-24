@@ -9,27 +9,27 @@ function Proyectos() {
                 <div className="proyectos-cards">
                     <div className="proy-card card-shadow">
                         <div className="proyecto-miniAlura" />
-                        <a href="https://mini-alura-sepia.vercel.app/?email-contato=#" target="_blank" className="proyecto-vinculo">Mini Alura</a>
+                        <a href="https://mini-alura-sepia.vercel.app/?email-contato=#" target="noreferrer" className="proyecto-vinculo">Mini Alura</a>
                     </div>
 
                     <div className="proy-card card-shadow">
                         <div className="proyecto-apeperia" />
-                        <a href="https://apeperia-gold.vercel.app" target="_blank" className="proyecto-vinculo">Apeperia</a>
+                        <a href="https://apeperia-gold.vercel.app" target="noreferrer" className="proyecto-vinculo">Apeperia</a>
                     </div>
 
                     <div className="proy-card card-shadow">
                         <div className="proyecto-fruta" />
-                        <a href="https://fruta-y-fruto-tawny.vercel.app" target="_blank" className="proyecto-vinculo">Fruta&Fruto</a>
+                        <a href="https://fruta-y-fruto-tawny.vercel.app" target="noreferrer" className="proyecto-vinculo">Fruta&Fruto</a>
                     </div>
 
                     <div className="proy-card card-shadow">
                         <div className="proyecto-barberia" />
-                        <a href="https://barberia-alura-one.vercel.app" target="_blank" className="proyecto-vinculo">Barbería Alura</a>
+                        <a href="https://barberia-alura-one.vercel.app" target="noreferrer" className="proyecto-vinculo">Barbería Alura</a>
                     </div>
 
                     <div className="proy-card card-shadow">
                         <div className="proyecto-org" />
-                        <a href="https://org-six-sooty.vercel.app" target="_blank" className="proyecto-vinculo">Proyecto Org</a>
+                        <a href="https://org-six-sooty.vercel.app" target="noreferrer" className="proyecto-vinculo">Proyecto Org</a>
                     </div>
                 </div>
             </div>

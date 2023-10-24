@@ -9,32 +9,32 @@ function Formacion() {
                 <div className="Formacion-certificados">
                     <div className="Certificado">
                         <div className="certificado-logo logo-sh" />
-                        <a className="certificado-vinculo" href="https://1drv.ms/b/s!ArN7M_I2pCDbgiIxwbjCyt1ihGTH?e=BpdHLM" target="_blank">Certificación Oracle Next ONE de Alura Latam.</a>
+                        <a className="certificado-vinculo" href="https://1drv.ms/b/s!ArN7M_I2pCDbgiKGjbs-rvyFhUQo?e=4cLEOd" target="noreferrer">Certificación Oracle Next ONE de Alura Latam.</a>
                     </div>
 
                     <div className="Certificado">
                         <div className="certificado-logo logo-sh" />
-                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgiQiwzz7WjLWlFEA?e=517meV" className="certificado-vinculo" target="_blank">Certificación en Formación Front-end.</a>
+                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgiSI_b5sCH4Otfk5?e=Cte9t8" className="certificado-vinculo" target="noreferrer">Certificación en Formación Front-end.</a>
                     </div>
 
                     <div className="Certificado">
                         <div className="certificado-logo logo-sh" />
-                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgiEInjuhvmh42Kjf?e=ew9Nto" className="certificado-vinculo" target="_blank">Certificación en Formación HTML y CSS.</a>
+                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgiHtDHmbahB-W9ow?e=Lhx1p1" className="certificado-vinculo" target="noreferrer">Certificación en Formación HTML y CSS.</a>
                     </div>
 
                     <div className="Certificado">
                         <div className="certificado-logo logo-sh" />
-                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgiAmymLcRnQllFx5?e=dR0d1d" className="certificado-vinculo" target="_blank">Certificación de React.</a>
+                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgiDuGK51c93C1137?e=pZZcvq" className="certificado-vinculo" target="noreferrer">Certificación de React.</a>
                     </div>
 
                     <div className="Certificado">
                         <div className="certificado-logo logo-sh" />
-                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgiMA-A-FGOti6srL?e=CCOOmd" className="certificado-vinculo" target="_blank">Certificación en Desarrollo personal.</a>
+                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgiOL0MhgskCt1_BB?e=VejZdx" className="certificado-vinculo" target="noreferrer">Certificación en Desarrollo personal.</a>
                     </div>
 
                     <div className="Certificado">
                         <div className="certificado-logo logo-sh" />
-                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgh-vFqhq02gVozIl?e=AyDGfL" className="certificado-vinculo" target="_blank">Certificación en Business Agility.</a>
+                        <a href="https://1drv.ms/b/s!ArN7M_I2pCDbgh9FK9c6Wqq2camv?e=tacFMY" className="certificado-vinculo" target="noreferrer">Certificación en Business Agility.</a>
                     </div>
                 </div>
             </div>

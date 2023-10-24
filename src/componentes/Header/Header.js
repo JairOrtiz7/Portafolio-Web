@@ -33,8 +33,8 @@ const theme = createTheme({
                     
                     <div className="portada-botones">
                         <ThemeProvider theme={theme}>
-                            <Button className="boton" color="aqua" href="https://www.linkedin.com/in/jairortiz7?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD8ztWIBZe7_6sW9r42x3Cbut1q_2oxlhpE&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BW1zcBn9HR6aTURr5xrff7w%3D%3D" target="_blank" variant="contained">Visitar LinkedIn</Button>
-                            <Button className="boton" color="aqua" href="https://1drv.ms/b/s!ArN7M_I2pCDbgijjXvUya2kTbf96?e=O88Dse" target="_blank" variant="contained">Descargar C.V</Button>
+                            <Button className="boton" color="aqua" href="https://www.linkedin.com/in/jairortiz7?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD8ztWIBZe7_6sW9r42x3Cbut1q_2oxlhpE&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BW1zcBn9HR6aTURr5xrff7w%3D%3D" target="noreferrer" variant="contained">Visitar LinkedIn</Button>
+                            <Button className="boton" color="aqua" href="https://1drv.ms/b/s!ArN7M_I2pCDbgijjXvUya2kTbf96?e=O88Dse" target="noreferrer" variant="contained">Descargar C.V</Button>
                         </ThemeProvider>
                     </div>
                 </div>
