@@ -1,0 +1,101 @@
+:root{
+    --blanco: #EDEDED;
+    --azulClaro: #c2d8f5;
+    --azulFuerte: #5AA1F2;
+    --morado: #5B72D9;
+    --azulOscuro: #33415C;
+    --negro: #1F1F1F;
+}
+
+.nav-bg {
+    background-color: var(--morado);
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.2);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-grupos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+    font-size: 18px;
+    color: var(--blanco);
+    /* padding: 10px 0 10px 50px; */
+    align-items: center;
+    cursor: default;
+}
+
+.nav-img{
+    background-image: url(../../../imagenes/spider.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-left: 10px;
+    
+}
+
+.nav-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+}
+
+.nav-logo svg{
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .nav-grupos{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .nav-principal{
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+    }
+    .nav-principal .nav-texto{
+        margin-left: 30px;
+        border: none;
+    }
+    .nav-principal a{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .borde-bajo{
+        position: absolute;
+        bottom: -5px;
+        height: 2px;
+        width: 4rem;
+        margin-left: 1.9rem;
+        background-color: var(--blanco);
+        transition: transform 0.25s;
+    }
+    .nav-texto:nth-child(2):hover ~ .borde-bajo {
+        transform: translateX(6.5rem);
+    }
+    .nav-texto:nth-child(3):hover ~ .borde-bajo {
+        transform: translateX(13.5rem);
+    }
+    .nav-texto:nth-child(4):hover ~ .borde-bajo {
+        transform: translateX(19.9rem);
+    }
+}

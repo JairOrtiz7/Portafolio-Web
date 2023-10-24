@@ -1,0 +1,110 @@
+.Habilidades-bg{
+    background-image: radial-gradient(#afcaf3 2px, transparent 2px);
+    background-size: 32px 32px;
+    background-color: #c2d8f5;
+}
+
+.logo-sh{
+    filter: drop-shadow(0px 7px 3px rgba(0,0,0,0.6));
+}
+
+.Habilidades-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hab-card{
+    background-color: var(--azulFuerte);
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 10%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1F1F1F;
+    transition: all 0.5s;
+    filter: drop-shadow(0px 7px 3px rgba(0,0,0,0.5));
+    cursor: default;
+}
+
+.hab-card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.hab-html{
+    background-image: url(../../../imagenes/html.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.hab-js{
+    background-image: url(../../../imagenes/archivo-js.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.hab-react{
+    background-image: url(../../../imagenes/React-icon.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.hab-css{
+    background-image: url(../../../imagenes/css-3.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.hab-github{
+    background-image: url(../../../imagenes/github.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.hab-figma{
+    background-image: url(../../../imagenes/figma.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.Habilidades-cards{
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width:768px) {
+    .Habilidades-cards{
+        display: grid;
+        column-gap: 5rem;
+        grid-template-columns: 1fr 1fr;
+    }
+    .Habilidades-cards p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Habilidades-cards{
+        column-gap: 15rem;
+        row-gap: 4rem;
+        filter: drop-shadow(0px 7px 3px rgba(0,0,0,0.5));
+    }
+    .hab-card{
+        filter: grayscale(70%);
+    }
+    .hab-card:hover {
+        filter: grayscale(0%);
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,114 @@
+.proyectos-bg{
+    background-image: radial-gradient(#afcaf3 2px, transparent 2px);
+    background-size: 32px 32px;
+    background-color: #c2d8f5;
+}
+
+.proyectos-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-shadow{
+    filter: drop-shadow(0px 7px 3px rgba(0,0,0,0.5));
+}
+
+.proy-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azulFuerte);
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4rem;
+    color: var(--negro);
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.proyecto-miniAlura{
+    background-image: url(../../../imagenes/MiniAlura.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.proyecto-apeperia{
+    background-image: url(../../../imagenes/Apeperia.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.proyecto-fruta{
+    background-image: url(../../../imagenes/frutasyfrutos.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.proyecto-barberia{
+    background-image: url(../../../imagenes/Barberia.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.proyecto-org{
+    background-image: url(../../../imagenes/ProyectoOrg.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.proyecto-vinculo{
+    color: #1F1F1F;
+    margin-top: 15px;
+}
+
+.proy-card:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.proyectos-cards{
+    margin-bottom: 2rem;
+}
+
+.proy-card a:active{
+    filter: invert(100%);
+}
+
+@media screen and (min-width: 768px) {
+    .proy-card{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .proyectos-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10rem;
+        row-gap: 1rem;
+    }
+    .proy-card{
+        width: 400px;
+        height: 280px;
+    }
+    .proyecto-miniAlura, .proyecto-apeperia, .proyecto-fruta, .proyecto-barberia, .proyecto-org{
+        margin-top: 1rem;
+        width: 370px;
+        height: 215px;
+        border-radius: 4px;
+    }
+}

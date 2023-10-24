@@ -1,0 +1,138 @@
+body{
+    background-image: linear-gradient(135deg, #303C73, #595B99, #703F99, #995A8C, #98997D, #592599);
+    background-size: 500%;
+    animation: bganimado 9s infinite;
+}
+
+.portada-contenido{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 60px;
+}
+
+@keyframes bganimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.portada-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blanco);
+    line-height: 2rem;
+}
+
+.texto-info{
+    text-align: center;
+}
+
+.portada-botones{
+    display: flex;
+    flex-direction: column;
+}
+
+.portada-botones .boton{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.portada-imagen{
+    background-image: url(../../../imagenes/Imagen-perfil.png);
+    background-size: cover;
+    height: 311px;
+    width: 311px;
+    filter: drop-shadow(-7px 7px 4px rgba(0,0,0,0.4));
+    margin-bottom: 10px;
+}
+
+.titulo, h1{
+    font-weight: bold;
+    color: var(--azulClaro);
+    margin-bottom: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 28px;
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+.texto-info, .texto-info2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-info2{
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .texto-info, .texto-info2{
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .portada-contenido{
+        flex-direction: row;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+    .texto-info{
+        text-align: left;
+    }
+    .texto-info2{
+        text-align: left;
+    }
+    .portada-textos{
+        align-items: flex-start;
+    }
+    .portada-botones{
+        flex-direction: row;
+    }
+    .portada-botones .boton{
+        margin-right: 30px;
+    }
+    .inf-img{
+        max-width: 50%;
+    }
+    .portada-botones .boton{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .titulo{
+        margin-bottom: -20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .portada-contenido{
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .portada-textos{
+        max-width: 70%;
+        margin-bottom: 2rem;
+    }
+    .portada-imagen{
+        height: 411px;
+        width: 411px;
+    }
+}
